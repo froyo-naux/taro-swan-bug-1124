@@ -1,0 +1,37 @@
+@import '../../styles/mixins';
+.p-login {
+  padding-top: 64px;
+
+  .logo {
+    @include block-center();
+    width: 214px;
+    height: 30px;
+    margin-bottom: 11px;
+  }
+
+  .desc {
+    font-size: 13px;
+    text-align: center;
+    color: #b0b4be;
+    margin-bottom: 57px;
+  }
+
+  .main {
+    @include block-center();
+    width: 249px;
+    height: 207px;
+    margin-bottom: 66px;
+  }
+
+  .login {
+    margin-top: 24px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #28bea0;
+
+    .ib {
+      font-size: 17px;
+      font-weight: inherit;
+    }
+  }
+}

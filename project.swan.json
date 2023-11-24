@@ -1,0 +1,26 @@
+{
+  "appid": "",
+  "projectname": "swan",
+  "host": "baiduboxapp",
+  "setting": {
+      "urlCheck": false
+  },
+  "swan": {
+      "baiduboxapp": {
+          "swanJsVersion": "3.800.1",
+          "extensionJsVersion": "1.21.2"
+      }
+  },
+  "compilation-args": {
+      "common": {
+          "quickPreview": false,
+          "useThread": false,
+          "ignoreTransJs": true,
+          "ignorePrefixCss": true,
+          "ignoreUglify": true
+      },
+      "forceChanged": {},
+      "useOldCompiler": false
+  },
+  "miniprogramRoot": "./dist"
+}

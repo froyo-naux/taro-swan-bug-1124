@@ -1,0 +1,19 @@
+@mixin block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin text-ellipsis($line) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line;
+  overflow: hidden;
+}
+
+@mixin img-bg($src, $width, $height) {
+  width: $width;
+  height: $height;
+  background: url($src) center no-repeat;
+  background-size: 100% 100%;
+}

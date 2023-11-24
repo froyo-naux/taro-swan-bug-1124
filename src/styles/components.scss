@@ -1,0 +1,21 @@
+.collect-btn {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url('https://media-image1.baydn.com/storage_media_image/buteka/35ed231c95e4273c988639899a1cf254.91d9f1dadb805a9cf5580c5cc06db596.png')
+    no-repeat center center/100% 100%;
+
+  &.has-collect {
+    background-image: url('https://media-image1.baydn.com/storage_media_image/buteka/4361e05e94669220d25e0e6facf1544d.c275d8825cf6234f35eac838eaba6a08.png');
+  }
+
+  &:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+}
